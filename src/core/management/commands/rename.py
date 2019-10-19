@@ -14,7 +14,7 @@ class Command(BaseCommand):
 
         # rename the project
 
-        file_to_rename = ['demo/setting.py, demo/wsgi.py', 'manage.py']
+        file_to_rename = ['demo/settings.py', 'demo/wsgi.py', 'manage.py']
         folder_to_rename = 'demo'
 
         for f in file_to_rename:
