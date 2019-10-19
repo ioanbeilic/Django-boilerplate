@@ -9,5 +9,7 @@ pip install --upgrade -r requirements.txt
 
 # run project
 create .env file with variable 
-ex: SECRET_KEY=12345
+ex: 
+ SECRET_KEY=12345
+ DEBUG=True
 
